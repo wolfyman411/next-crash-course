@@ -1,15 +1,10 @@
-"use client"
+export default async function page({params}) {
 
-import React from 'react'
-import { useParams } from 'next/navigation'
-
-export default function page() {
-
-  const params = useParams();
+  const { username } = await params
 
   return (
     <div>
-      <h1>This is a user: {params.username}</h1>
+      <h1>This is a user: {username}</h1>
     </div>
   )
 }
