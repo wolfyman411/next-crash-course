@@ -1,0 +1,18 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  background-color: hotpink;
+}
+
+.ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.input {
+  background-color: #0a0a0a;
+  border-radius: 4px;
+  border: gray 2px solid;
+}
